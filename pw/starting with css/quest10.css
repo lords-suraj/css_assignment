@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+h1{
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    color: aqua;
+    font-size: 25px;
+}

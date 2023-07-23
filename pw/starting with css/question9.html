@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form | </title>
+</head>
+<style>
+    input[name="name"] {
+color: red;
+    }
+    input[name="username"]{
+        color: yellow;
+    } 
+    input[name="pass"]{
+color: lime;
+    }
+    input[name="pas"]{
+        color: skyblue;
+    }
+</style>
+<body>
+    <form>
+        <label for="name">Enter First Name : -</label>
+        <input type="text" name="name" required>
+        <br>
+        <label for="username">Enter User Name : -</label>
+        <input type="text" name="username" required>
+        <br>
+        <label for="pass">Enter Password : -</label>
+        <input type="password" name="pass" required>
+        <br>
+        <label for="pas">Enter Confirm Password : -</label>
+        <input type="password" name="pas">
+        <br>
+       <input class="btn" type="submit" value="register">
+       
+    </form>
+
+</body>
+</html>
